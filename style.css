@@ -27,8 +27,9 @@ body
 .container
 {
     background-color: var(--dark-blue);
-    width: 350px;
-    height: 350px;
+    background-image: radial-gradient(circle at 50, var(--medium-grey), var(--dark-blue));
+    width: 325px;
+    height: 325px;
     border-radius: 35px;
     padding: 30px;
 }
@@ -55,10 +56,10 @@ body
 .rating-button
 {
     display: inline-block;
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
     text-align: center;
-    line-height: 32px;
+    line-height: 24px;
     background-color: var(--medium-grey);
     color: var(--light-grey);
     padding: 10px;
@@ -80,8 +81,9 @@ h2
 {
     color: var(--white);
     margin-top: 40px;
-    margin-bottom: 5px;
     font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 0;
 }
 
 p
